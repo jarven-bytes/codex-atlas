@@ -12,6 +12,7 @@ import type { ProjectStore } from "../../src/server/store/project-store";
 import { createProjectStore } from "../../src/server/store/project-store";
 import type { CodexActivityEvent, LaunchTarget, Project, Suggestion } from "../../src/shared/domain";
 import { createApiHandler } from "../../src/server/api";
+import { discoverInstalledSkills } from "../../src/server/skills/skills-service";
 
 type ApiHandler = ReturnType<typeof createApiHandler>;
 
@@ -238,6 +239,10 @@ describe("HTTP API", () => {
       syncEvent,
       launchTarget,
       stopProcess,
+      listSkills: (projects) => discoverInstalledSkills({
+        projects,
+        userSkillsRoot: path.join(tempRoot, "skills")
+      }),
       logError: vi.fn()
     });
   });
@@ -365,6 +370,10 @@ describe("HTTP API", () => {
   });
 
   test("lists installed skills with summaries and project usage evidence", async () => {
+    const skillDir = path.join(tempRoot, "skills", "fixture-skill");
+    await mkdir(skillDir, { recursive: true });
+    await writeFile(path.join(skillDir, "SKILL.md"),
+      "---\nname: fixture-skill\ndescription: A self-contained API test skill.\n---\n");
     const skillsResponse = await invokeApi(handler, {
       method: "GET",
       pathname: "/api/skills"
@@ -374,10 +383,10 @@ describe("HTTP API", () => {
     expect(skillsResponse.json).toEqual({
       skills: expect.arrayContaining([
         expect.objectContaining({
-          name: expect.any(String),
-          summary: expect.any(String),
-          path: expect.any(String),
-       source: "user",
+          name: "fixture-skill",
+          summary: "A self-contained API test skill.",
+          path: skillDir,
+          source: "user",
           projects: expect.any(Array)
         })
       ])
