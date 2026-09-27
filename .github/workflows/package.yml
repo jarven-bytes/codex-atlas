@@ -1,0 +1,27 @@
+name: macOS preview packages
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        arch: [arm64, x64]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build:desktop
+      - run: npm run test:ci
+      - run: npx electron-builder --mac dir dmg --${{ matrix.arch }} --publish never
+      - uses: actions/upload-artifact@v4
+        with:
+          name: codex-atlas-macos-${{ matrix.arch }}-unsigned
+          path: release/*.dmg
+          if-no-files-found: error

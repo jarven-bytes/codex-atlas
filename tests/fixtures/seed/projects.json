@@ -1,0 +1,380 @@
+[
+  {
+    "id": "flight-price-tracker",
+    "name": "Flight Price Tracker",
+    "type": "web-app",
+    "needStatus": "Plan",
+    "userNeed": "Example project for flight price tracker.",
+    "currentState": "Demonstration record for automated tests.",
+    "nextAction": "Review the example project.",
+    "rootPath": "/workspace/examples/flight-price-tracker",
+    "aliases": [],
+    "launchTargets": [
+      {
+        "kind": "folder",
+        "id": "project-folder",
+        "label": "Project folder",
+        "path": "/workspace/examples/flight-price-tracker"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "manual",
+        "label": "Example fixture",
+        "sourceId": "example:flight-price-tracker",
+        "syncStatus": "success",
+        "lastSyncedAt": "2026-08-20T12:00:00.000Z"
+      }
+    ],
+    "importantFiles": [
+      "README.md"
+    ],
+    "missingItems": [
+      "Review example requirements"
+    ],
+    "tags": [
+      "example"
+    ],
+    "suggestions": [],
+    "recentActivity": [],
+    "fieldProvenance": {
+      "needStatus": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "userNeed": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "nextAction": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      }
+    },
+    "attentionFlags": [],
+    "lastActivityAt": "2026-08-20T12:00:00.000Z",
+    "lastSyncedAt": "2026-08-20T12:00:00.000Z",
+    "syncStatus": "success",
+    "updatedAt": "2026-08-20T12:00:00.000Z",
+    "pinned": true,
+    "archived": false
+  },
+  {
+    "id": "ai-daily-planner",
+    "name": "AI Daily Planner",
+    "type": "mobile-app",
+    "needStatus": "Insufficient",
+    "userNeed": "Example project for ai daily planner.",
+    "currentState": "Demonstration record for automated tests.",
+    "nextAction": "Review the example project.",
+    "rootPath": "/workspace/examples/ai-daily-planner",
+    "aliases": [],
+    "launchTargets": [
+      {
+        "kind": "folder",
+        "id": "project-folder",
+        "label": "Project folder",
+        "path": "/workspace/examples/ai-daily-planner"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "manual",
+        "label": "Example fixture",
+        "sourceId": "example:ai-daily-planner",
+        "syncStatus": "failed",
+        "lastSyncedAt": "2026-08-20T12:00:00.000Z"
+      }
+    ],
+    "importantFiles": [
+      "README.md"
+    ],
+    "missingItems": [
+      "Review example requirements"
+    ],
+    "tags": [
+      "example"
+    ],
+    "suggestions": [],
+    "recentActivity": [],
+    "fieldProvenance": {
+      "needStatus": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "userNeed": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "nextAction": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      }
+    },
+    "attentionFlags": [],
+    "lastActivityAt": "2026-08-20T12:00:00.000Z",
+    "lastSyncedAt": "2026-08-20T12:00:00.000Z",
+    "syncStatus": "failed",
+    "updatedAt": "2026-08-20T12:00:00.000Z",
+    "pinned": false,
+    "archived": false
+  },
+  {
+    "id": "applypilot-job-search",
+    "name": "ApplyPilot Job Search",
+    "type": "workflow",
+    "needStatus": "Need",
+    "userNeed": "Example project for applypilot job search.",
+    "currentState": "Demonstration record for automated tests.",
+    "nextAction": "Review the example project.",
+    "rootPath": "/workspace/examples/applypilot-job-search",
+    "aliases": [],
+    "launchTargets": [
+      {
+        "kind": "folder",
+        "id": "project-folder",
+        "label": "Project folder",
+        "path": "/workspace/examples/applypilot-job-search"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "manual",
+        "label": "Example fixture",
+        "sourceId": "example:applypilot-job-search",
+        "syncStatus": "partial",
+        "lastSyncedAt": "2026-08-20T12:00:00.000Z"
+      }
+    ],
+    "importantFiles": [
+      "README.md"
+    ],
+    "missingItems": [
+      "Review example requirements"
+    ],
+    "tags": [
+      "example"
+    ],
+    "suggestions": [],
+    "recentActivity": [],
+    "fieldProvenance": {
+      "needStatus": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "userNeed": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "nextAction": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      }
+    },
+    "attentionFlags": [],
+    "lastActivityAt": "2026-08-20T12:00:00.000Z",
+    "lastSyncedAt": "2026-08-20T12:00:00.000Z",
+    "syncStatus": "partial",
+    "updatedAt": "2026-08-20T12:00:00.000Z",
+    "pinned": false,
+    "archived": false
+  },
+  {
+    "id": "sites-web-project",
+    "name": "Sites/Web Project",
+    "type": "web-app",
+    "needStatus": "Need",
+    "userNeed": "Example project for sites/web project.",
+    "currentState": "Demonstration record for automated tests.",
+    "nextAction": "Review the example project.",
+    "rootPath": "/workspace/examples/sites-web-project",
+    "aliases": [],
+    "launchTargets": [
+      {
+        "kind": "folder",
+        "id": "project-folder",
+        "label": "Project folder",
+        "path": "/workspace/examples/sites-web-project"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "manual",
+        "label": "Example fixture",
+        "sourceId": "example:sites-web-project",
+        "syncStatus": "success",
+        "lastSyncedAt": "2026-08-20T12:00:00.000Z"
+      }
+    ],
+    "importantFiles": [
+      "README.md"
+    ],
+    "missingItems": [
+      "Review example requirements"
+    ],
+    "tags": [
+      "example"
+    ],
+    "suggestions": [],
+    "recentActivity": [],
+    "fieldProvenance": {
+      "needStatus": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "userNeed": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "nextAction": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      }
+    },
+    "attentionFlags": [],
+    "lastActivityAt": "2026-08-20T12:00:00.000Z",
+    "lastSyncedAt": "2026-08-20T12:00:00.000Z",
+    "syncStatus": "success",
+    "updatedAt": "2026-08-20T12:00:00.000Z",
+    "pinned": false,
+    "archived": false
+  },
+  {
+    "id": "weekday-morning-brief",
+    "name": "Weekday Morning Brief",
+    "type": "automation",
+    "needStatus": "Plan",
+    "userNeed": "Example project for weekday morning brief.",
+    "currentState": "Demonstration record for automated tests.",
+    "nextAction": "Review the example project.",
+    "rootPath": "/workspace/examples/weekday-morning-brief",
+    "aliases": [],
+    "launchTargets": [
+      {
+        "kind": "folder",
+        "id": "project-folder",
+        "label": "Project folder",
+        "path": "/workspace/examples/weekday-morning-brief"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "manual",
+        "label": "Example fixture",
+        "sourceId": "example:weekday-morning-brief",
+        "syncStatus": "success",
+        "lastSyncedAt": "2026-08-20T12:00:00.000Z"
+      }
+    ],
+    "importantFiles": [
+      "README.md"
+    ],
+    "missingItems": [
+      "Review example requirements"
+    ],
+    "tags": [
+      "example"
+    ],
+    "suggestions": [],
+    "recentActivity": [],
+    "fieldProvenance": {
+      "needStatus": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "userNeed": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "nextAction": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      }
+    },
+    "attentionFlags": [],
+    "lastActivityAt": "2026-08-20T12:00:00.000Z",
+    "lastSyncedAt": "2026-08-20T12:00:00.000Z",
+    "syncStatus": "success",
+    "updatedAt": "2026-08-20T12:00:00.000Z",
+    "pinned": false,
+    "archived": false
+  },
+  {
+    "id": "linear-activity-summary",
+    "name": "Linear Activity Summary",
+    "type": "connector",
+    "needStatus": "Insufficient",
+    "userNeed": "Example project for linear activity summary.",
+    "currentState": "Demonstration record for automated tests.",
+    "nextAction": "Review the example project.",
+    "rootPath": "/workspace/examples/linear-activity-summary",
+    "aliases": [],
+    "launchTargets": [
+      {
+        "kind": "folder",
+        "id": "project-folder",
+        "label": "Project folder",
+        "path": "/workspace/examples/linear-activity-summary"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "manual",
+        "label": "Example fixture",
+        "sourceId": "example:linear-activity-summary",
+        "syncStatus": "unavailable",
+        "lastSyncedAt": "2026-08-20T12:00:00.000Z"
+      }
+    ],
+    "importantFiles": [
+      "README.md"
+    ],
+    "missingItems": [
+      "Review example requirements"
+    ],
+    "tags": [
+      "example"
+    ],
+    "suggestions": [],
+    "recentActivity": [],
+    "fieldProvenance": {
+      "needStatus": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "userNeed": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      },
+      "nextAction": {
+        "sourceLabel": "Example fixture",
+        "manual": true,
+        "updatedAt": "2026-08-20T12:00:00.000Z"
+      }
+    },
+    "attentionFlags": [],
+    "lastActivityAt": "2026-08-20T12:00:00.000Z",
+    "lastSyncedAt": "2026-08-20T12:00:00.000Z",
+    "syncStatus": "unavailable",
+    "updatedAt": "2026-08-20T12:00:00.000Z",
+    "pinned": false,
+    "archived": false
+  }
+]

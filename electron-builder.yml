@@ -1,0 +1,32 @@
+appId: com.codex.atlas
+productName: Codex Atlas
+icon: build/icon.png
+asar: true
+afterPack: scripts/after-pack.cjs
+
+directories:
+  output: release
+
+files:
+  - package.json
+  - electron/**/*
+  - dist/client/**/*
+  - dist/server/**/*
+  - dist/package-data/**/*
+  - "!**/*.map"
+  - "!data/history{,/**/*}"
+  - "!data/launch-trust.json"
+  - "!data/sync-reviews.json"
+  - "!tests{,/**/*}"
+  - "!src{,/**/*}"
+  - "!scripts{,/**/*}"
+
+mac:
+  defaultArch: arm64
+  target:
+    - dir
+    - dmg
+  identity: null
+  hardenedRuntime: false
+  entitlements: build/entitlements.mac.plist
+  entitlementsInherit: build/entitlements.mac.plist
